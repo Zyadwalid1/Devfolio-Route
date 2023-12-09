@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 991px) {
+    .navbar-dark .navbar-nav .nav-link {
+        width: fit-content !important;
+    }
+    /* Deep Drop Down Menu Diff Style on Screen */
+    .deep-dropdown-menu {
+        position: static !important;
+        height: 0;
+        background-color: #f5f5f5;
+    }
+    .deep-dropdown-toggler:hover + .deep-dropdown-menu {
+        height: 9.5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    #home .content h1 {
+        font-size: 2.5rem;
+    }
+    #home .content .typed::after {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    #about .about-info h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@media screen and (min-width: 768px) {
+    .desc-text {
+        width: 85%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .desc-text {
+        width: 65%;
+    }
+}
